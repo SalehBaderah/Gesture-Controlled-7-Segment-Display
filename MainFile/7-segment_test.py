@@ -16,10 +16,10 @@ hand = mp_hands.Hands(max_num_hands=1)
 
 end = 0
 
-def is_finger_open(landmarks, tip, pip):
+def is_finger_open(landmarks, tip, pip): # check the fingers except the thump is open or not
     return landmarks.landmark[tip].y < landmarks.landmark[pip].y
 
-def thump_state(landmarks, tip, pip):
+def thump_state(landmarks, tip, pip): # check the Thump is open or not
     return landmarks.landmark[tip].x < landmarks.landmark[pip].x
 
 def display_digit(digit):
@@ -36,13 +36,13 @@ def display_digit(digit):
         segments_to_turn_on = digit_patterns[digit]
         
         for segment in ['a', 'b', 'c', 'd', 'e', 'f', 'g']:
-            pass
-            #print(segments_to_turn_on)
+            
+            print(segments_to_turn_on)
         
         for segment in ['a', 'b', 'c', 'd', 'e', 'f', 'g']:
             if segment in segments_to_turn_on:
-                pass
-                #print(segments_to_turn_on)
+                
+                print(segments_to_turn_on)
                 
 
 while True:
@@ -84,7 +84,7 @@ while True:
                 
                 total_num = finger_states.count(1) # counter for open fingers
 
-                print(f"Total open fingers: {total_num}")
+                #print(f"Total open fingers: {total_num}")
 
                 if 0 <= total_num <= 5:
                     display_digit(total_num)
