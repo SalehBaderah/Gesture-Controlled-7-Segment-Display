@@ -1,5 +1,5 @@
 # Gesture-Controlled-7-Segment-Display
-This project works by detecting the number of open fingers (0–5) and displaying it on a 7-segment display using Python and Arduino.
+This project works by detecting the number of open fingers (0–5) and displaying it on a 7-segment display using **Python** and **Arduino**
 
 >✊ Zero fingers → display `0`  
 👆 One finger → display `1`  
