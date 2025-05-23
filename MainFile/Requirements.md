@@ -22,6 +22,7 @@
 
 - `7-segment.py` — Main Python script 
 - `7-segment_test.py` — Python script (without the arduino for testing)
+- `Mediapipe_landmarks.md` - Mediapipe Landmarks indexes
 
 ## ✅ Setup Instructions
 
