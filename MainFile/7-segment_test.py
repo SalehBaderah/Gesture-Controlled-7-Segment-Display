@@ -1,4 +1,4 @@
-# This version will print only the digit for open fingers in the terminal
+# This version will print only the digits of open fingers in the terminal
 
 import cv2
 import time
