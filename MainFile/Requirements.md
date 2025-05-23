@@ -40,6 +40,7 @@
 3. **Connect the hardware** as shown below:
 
 ![Image](https://github.com/user-attachments/assets/2c3912fe-8ebb-4c25-9d69-872ba55c9608)
+![Image](https://github.com/user-attachments/assets/b6d4b3f2-4116-4083-ad71-c1a787ee5ae9)
 
 4. **Run the script:**
    ```bash
